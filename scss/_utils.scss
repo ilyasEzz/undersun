@@ -1,0 +1,12 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@mixin position-0-0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
